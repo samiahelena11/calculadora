@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(255, 143, 229);
 }
 
 .calculadora {
@@ -40,14 +41,17 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #9448a6;
     color: white;
 }
 
 button.limpar {
-    background-color: #ff6666;
+    background-color: #d02424;
+}
+button.limpar:hover {
+    background-color: #b92121;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #7e3c8d;
 }
